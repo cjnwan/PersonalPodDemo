@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.frameworks   = 'UIKit'
   s.source_files = "PersonalPodDemo/**/*.{h,m}"
   s.requires_arc = true
+  s.dependency  "AFNetworking/Reachability", "~> 2.6.3"
+
 end  
